@@ -101,7 +101,7 @@ export default function Hero() {
               <div className="relative z-10 mx-auto max-w-md lg:max-w-lg">
                 <div className="aspect-square relative overflow-hidden rounded-2xl shadow-2xl">
                   <Image
-                    src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" // Use local headshot
+                    src="/image/doctor.jpg"
                     alt="Dr. Serena Blake - Clinical Psychologist"
                     fill
                     className="object-cover"
