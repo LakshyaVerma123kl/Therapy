@@ -3,6 +3,7 @@
 
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import doctorImage from "@/app/assets/doctor.jpg";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -101,7 +102,7 @@ export default function Hero() {
               <div className="relative z-10 mx-auto max-w-md lg:max-w-lg">
                 <div className="aspect-square relative overflow-hidden rounded-2xl shadow-2xl">
                   <Image
-                    src="/image/doctor.jpg"
+                    src={doctorImage}
                     alt="Dr. Serena Blake - Clinical Psychologist"
                     fill
                     className="object-cover"

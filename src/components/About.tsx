@@ -7,6 +7,7 @@ import {
   ClockIcon,
   MapPinIcon,
 } from "@heroicons/react/24/outline";
+import doctorImage from "@/app/assets/doctor.jpg";
 
 export default function About() {
   const credentials = [
@@ -49,7 +50,7 @@ export default function About() {
               <div className="relative z-10">
                 <div className="aspect-[4/5] relative overflow-hidden rounded-2xl shadow-xl">
                   <Image
-                    src="/image/doctor.jpg"
+                    src={doctorImage}
                     alt="Dr. Serena Blake in her therapy office"
                     fill
                     className="object-cover"
